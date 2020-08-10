@@ -1,0 +1,5 @@
+1. First install tailwind css => npm install tailwindcss
+
+2. 
+
+2. to initialize tailwind.config.js with predefined values => npx tailwindcss init --full
