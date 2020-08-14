@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
+
+/* Components Extractions can be done before utilities component */
+.card {
+  @apply bg-gray-400 rounded-md overflow-hidden shadow-md relative;
+}
+
+.badge {
+  @apply absolute top-0 ml-2 mt-2 p-2 bg-gray-100 text-gray-700 text-xs uppercase  rounded-full;
+}
+
+.btn {
+  @apply rounded-full py-2 px-3 uppercase text-xs font-bold tracking-wider cursor-pointer;
+}
+
 @tailwind utilities;
